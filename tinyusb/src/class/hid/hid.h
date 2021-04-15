@@ -195,7 +195,7 @@ typedef struct TU_ATTR_PACKED
   int8_t  ry;        ///< Delta Ry movement of analog right trigger
   uint8_t hat;       ///< Buttons mask for currently pressed buttons in the DPad/hat
   uint16_t buttons;  ///< Buttons mask for currently pressed buttons
-}hid_gamepad_report_t;
+}geeksville_disabled_hid_gamepad_report_t; // FIXME ugly way to fix the build - do not merge
 
 /// Standard Gamepad Buttons Bitmap (from Linux input event codes)
 typedef enum
